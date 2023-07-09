@@ -9,11 +9,12 @@
     "eslint": "^3.19.0",
     "eslint-plugin-react": "^7.0.1",
     "jest-expo": "^0.4.0",
+    "react-native-cli": "^2.0.1",
     "react-test-renderer": "16.0.0-alpha.6"
   },
   "scripts": {
     "start": "react-native start",
-    "android": "react-native run-android",
+    "android": "node node_modules/react-native/local-cli/cli.js run-android",
     "ios": "react-native run-ios",
     "test": "node node_modules/jest/bin/jest.js --watch"
   },
@@ -23,9 +24,9 @@
   "dependencies": {
     "react": "16.0.0-alpha.6",
     "react-native": "^0.43.4",
-    "react-native-camera": "^0.9.4",
-    "react-native-image-resizer": "^0.1.1",
+    "react-native-camera": "^4.2.1",
+    "react-native-image-resizer": "^1.4.5",
     "react-native-image-to-base64": "^0.1.0",
-    "react-native-spinkit": "^1.0.3"
+    "react-native-spinkit": "^1.5.1"
   }
 }
